@@ -52,9 +52,66 @@ a{
     height: 30px;
 }
 
+.main-content{
+    padding-top: 70px;
+}
+
+.col-4{
+    flex-basis: calc(100% / 3);
+}
+
+.card-thumbnail{
+    position: relative;
+}
+
+/* PRODUCT RULES */
+
+.product-favorit-button,
+.product-tags {
+	position: absolute;
+}
+
+.product-favorit-button{
+    right: 0;
+    top: 10px;
+    background-color: white;
+    width: 50px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.product-tags{
+    left: 0;
+    bottom: 40px;
+    display: flex;
+    gap: 8px;
+}
+
+.product-tags .tag {
+    font-weight: 700;
+    color: white;
+    padding: 0 10px;
+    line-height: 28px;
+}
+.tag.product-discount{
+    background-color: red;
+
+}
+.tag.product-type{
+    background-color: green;
+}
 
 
-
+.prize-disc{
+    color: red;
+    font-weight: 700;
+}
+.prize-real{
+    color: black;
+    text-decoration: line-through;
+    font-weight: 400;
+}
 
 
 
